@@ -1,0 +1,211 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#030405"><title>AF | ATLAS 3.6 · Globo y anillos 360°</title><style>
+:root{--bg:#050b16;--panel:#0c1a2b;--line:#25445d;--blue:#5cddff;--gold:#e4be7b;--white:#edf7ff;--muted:#9bb1c4}*{box-sizing:border-box}body{margin:0;color:var(--white);font:15px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(ellipse at 55% 15%,#142e49 0%,#050b16 58%);min-height:100vh}button,input,select{font:inherit}button,a{touch-action:manipulation}button{cursor:pointer}.app{display:grid;grid-template-columns:205px minmax(0,1fr);min-height:100vh}.sidebar{padding:30px 15px;background:#071321d9;border-right:1px solid var(--line)}.logo{font-size:24px;letter-spacing:4px;font-weight:800;margin:0 8px 6px}.logo span{color:var(--gold)}.sub{font-size:10px;color:var(--muted);letter-spacing:2px;margin:0 8px 30px}.nav{display:block;width:100%;border:1px solid transparent;background:transparent;color:#a9bfd0;text-align:left;border-radius:11px;padding:14px;margin-bottom:7px}.nav.active{background:#10283c;color:var(--blue);border-color:#2b6380}.foot{color:#718fa4;font-size:11px;margin:32px 9px}.main{padding:25px clamp(16px,3vw,38px);max-width:1550px;width:100%;margin:auto}.top{display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:1px solid var(--line);padding-bottom:18px}.kicker{color:var(--gold);font-size:10px;letter-spacing:3px}.top h1{font-size:clamp(22px,3vw,34px);margin:6px 0 0}.pill{border:1px solid #326655;color:#a4e9c9;border-radius:30px;padding:8px 11px;font-size:11px}.view{display:none}.view.active{display:block}.core{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(240px,.8fr);gap:18px;margin-top:22px}.panel{background:linear-gradient(145deg,#102237ef,#081422ee);border:1px solid var(--line);border-radius:17px;padding:22px;box-shadow:0 16px 45px #0003}.orb-panel{text-align:center;min-height:445px;display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;overflow:hidden}.orb-panel:before{content:"";position:absolute;inset:15px;border:1px solid #1d3953;border-radius:12px;pointer-events:none}.orb{height:235px;width:235px;max-width:70vw;max-height:70vw;border-radius:50%;position:relative;background:radial-gradient(circle at 42% 38%,#d6f8ff 0%,#64dfff 8%,#14608c 24%,#061b37 54%,#020b1a 72%);border:2px solid #61dfff;box-shadow:0 0 30px #38baff88,0 0 95px #1b84d84b,inset 0 0 40px #65dfff66;animation:pulse 5s ease-in-out infinite}.orb:before,.orb:after{content:"";position:absolute;inset:-17px;border:1px solid #50c9fa99;border-radius:50%;transform:rotateX(65deg) rotateZ(-18deg)}.orb:after{inset:-30px;border-color:#c6a56e66;transform:rotateY(70deg) rotateZ(25deg)}.letter{position:absolute;inset:0;display:grid;place-items:center;font-size:95px;font-weight:200;color:#f2fbff;text-shadow:0 0 24px #a8eaff}.orb-title{letter-spacing:5px;font-size:19px;margin:34px 0 7px}.muted{color:var(--muted)}.small{font-size:12px}.stack{display:grid;gap:17px}.panel h2{font-size:16px;letter-spacing:1px;margin:0 0 16px}.links{display:grid;grid-template-columns:1fr 1fr;gap:10px}.btn{border:1px solid #31617e;background:#102b42;color:#e6f8ff;border-radius:10px;padding:12px 13px;text-decoration:none;display:inline-flex;justify-content:center;align-items:center;text-align:center;min-height:45px}.btn.gold{background:#352b1e;border-color:#9e8050;color:#f7d7a1}.btn:hover,.nav:hover{filter:brightness(1.18)}.notice{font-size:12px;line-height:1.6;color:#a6bdd0}.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:20px}.metric{font-size:25px;color:var(--blue);margin:8px 0}.label{font-size:11px;letter-spacing:1.5px;color:var(--gold)}.section{margin-top:20px}.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px}.field{display:grid;gap:7px;margin:12px 0}.field label{font-size:12px;color:#b8cbdc}.field input,.field select{width:100%;border:1px solid #31546e;background:#071522;color:white;border-radius:9px;padding:12px;outline-color:var(--blue)}.result{font-size:28px;color:var(--blue);font-weight:700;margin:8px 0}.statusline{color:#b1c7d7;font-size:12px;line-height:1.6}.action-list{display:grid;gap:10px}.action-list a{justify-content:space-between}.badge{display:inline-block;border:1px solid #755d36;color:#f1d49b;padding:5px 9px;border-radius:20px;font-size:10px}.hidden{display:none!important}@keyframes pulse{50%{box-shadow:0 0 42px #38baffaa,0 0 110px #1b84d870,inset 0 0 50px #65dfff99}}@media(max-width:900px){.app{grid-template-columns:1fr}.sidebar{padding:12px 15px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}.logo{font-size:19px;margin:0}.sub,.foot{display:none}.nav{width:auto;margin:0;padding:10px 13px}.main{padding:18px}.core{grid-template-columns:1fr}.orb-panel{min-height:380px}.cards{grid-template-columns:1fr 1fr}}@media(max-width:550px){.top{align-items:flex-start}.pill{font-size:10px}.cards,.grid2,.links{grid-template-columns:1fr}.orb{height:190px;width:190px}.letter{font-size:76px}.orb-panel{min-height:340px}}
+
+/* ATLAS 2.0 | BLACK EXECUTIVE EDITION */
+:root{--bg:#030405;--panel:#0b0d10;--line:#292d32;--blue:#55d9ff;--gold:#d7b477;--white:#f2f3f4;--muted:#9a9fa6}
+html{background:#030405;color-scheme:dark}
+body{background:radial-gradient(ellipse 55% 48% at 49% 37%,#101820 0%,#07090b 49%,#030405 100%);color:var(--white)}
+.sidebar{background:linear-gradient(180deg,#0c0e11,#050607);border-right:1px solid #2a2d31}
+.nav{color:#b7b9bd}.nav.active{background:linear-gradient(100deg,#11171c,#0a0c0e);border-color:#456273;color:#6edfff;box-shadow:inset 3px 0 #62d8fa,0 0 18px #2ebfff12}
+.top{border-bottom-color:#303135}.panel{background:linear-gradient(145deg,#111317f5,#08090bf5 75%);border-color:#292d32;box-shadow:0 14px 34px #0008}
+.orb-panel{background:radial-gradient(ellipse at 50% 45%,#11212c 0%,#0a0e12 37%,#070809 73%);border-color:#35393c}
+.orb-panel:before{border-color:#30363b}
+.orb{background:radial-gradient(circle at 42% 38%,#e2fbff 0%,#67dfff 7%,#155777 18%,#081a28 40%,#03080e 72%);box-shadow:0 0 24px #38baff88,0 0 66px #1b84d83d,inset 0 0 38px #65dfff44}
+.btn{background:#14191d;border-color:#38444c;color:#eaf1f4}.btn.gold{background:linear-gradient(140deg,#34281b,#211b13);border-color:#a98953;color:#f5dbb0}
+.field input,.field select{background:#0a0d10;border-color:#363c41}.pill{background:#0d1512;border-color:#315043}
+.notice,.statusline{color:#b2b6bc}.foot{color:#858b90}.metric,.result{color:#6ad9fb}
+@keyframes pulse{50%{box-shadow:0 0 35px #38baff99,0 0 90px #1b84d84b,inset 0 0 46px #65dfff77}}
+
+/* ATLAS NEXUS 2.1 · Cinematic HUD */
+body{background:#030405;background-image:radial-gradient(ellipse 42% 42% at 45% 38%,#101c25 0%,transparent 72%),linear-gradient(90deg,#ffffff04 1px,transparent 1px),linear-gradient(#ffffff04 1px,transparent 1px);background-size:auto,46px 46px,46px 46px}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:9;background:repeating-linear-gradient(0deg,transparent 0px,transparent 3px,#00000010 4px);opacity:.42}
+.sidebar{position:relative;box-shadow:10px 0 50px #0008}.sidebar:before{content:"";position:absolute;right:0;top:16%;height:22%;width:1px;background:linear-gradient(transparent,#53d8ff,transparent);box-shadow:0 0 22px #53d8ff}
+.logo{font-weight:650;letter-spacing:5px;text-shadow:0 0 20px #7ce8ff30}.sub{color:#a48a61}.nav{font-size:12px;letter-spacing:2px;font-weight:600}.nav.active{box-shadow:inset 3px 0 #62d8fa,0 0 22px #2ebfff1c, inset 0 0 22px #2ebfff12}
+.top{position:relative}.top:after{content:"";position:absolute;bottom:-1px;left:0;width:120px;height:2px;background:linear-gradient(90deg,#62d8fa,transparent);box-shadow:0 0 13px #62d8fa}
+.top h1{letter-spacing:3px;font-weight:400}.kicker{letter-spacing:3px}.pill{letter-spacing:1px;box-shadow:0 0 17px #64ffb310}
+.panel{position:relative;overflow:hidden;border-radius:5px;background:linear-gradient(145deg,#101318f5,#07090bf5 78%);border-color:#30363b}.panel:not(.orb-panel):before{content:"";position:absolute;left:0;top:0;width:34px;height:1px;background:#bba06d;box-shadow:0 0 11px #bba06d}.panel:not(.orb-panel):after{content:"";position:absolute;right:0;bottom:0;width:23px;height:1px;background:#55d9ff;box-shadow:0 0 10px #55d9ff}
+.panel h2{font-size:12px;letter-spacing:2.4px;font-weight:600;color:#d8e8ef}.btn{border-radius:4px;letter-spacing:.3px;transition:background .2s,border-color .2s,transform .2s}.btn:active{transform:scale(.98)}.btn:hover{border-color:#65dfff;background:#15212a}.btn.gold:hover{background:#41311f;border-color:#e5c68d}
+.orb-panel{min-height:540px;background:radial-gradient(circle at 50% 48%,#14212a 0%,#080c10 40%,#030405 74%);isolation:isolate}
+.orb-panel:before{inset:13px;border:1px solid #263943;border-radius:1px;clip-path:polygon(0 0,100% 0,100% 85%,95% 100%,0 100%)}
+.orb-panel:after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(transparent 49.9%,#54dcff24 50%,transparent 50.1%);background-size:100% 110px;animation:scan 8s linear infinite;z-index:-1}
+.nexus-stage{height:315px;width:315px;max-width:90%;display:grid;place-items:center;position:relative;margin:3px 0 0}
+.nexus-stage:before{content:"";position:absolute;inset:1px;border-radius:50%;border:1px dashed #64dcff66;box-shadow:0 0 16px #5fdbff22,inset 0 0 30px #5fdbff0b;animation:spin 34s linear infinite}
+.nexus-stage:after{content:"";position:absolute;inset:23px;border-radius:50%;border:2px dotted #c7a36b8a;border-left-color:transparent;border-right-color:transparent;animation:spin 21s linear infinite reverse}
+.orb{height:214px;width:214px;max-height:none;max-width:none;background:radial-gradient(circle at 38% 31%,#b8f4ff 0%,#43bce6 5%,#0d4561 18%,#061321 42%,#02060b 70%);border:1px solid #8ceaff;box-shadow:0 0 24px #38baff9a,0 0 65px #1b84d850,inset 0 0 50px #65dfff60;animation:orbfloat 6s ease-in-out infinite}
+.orb:before{inset:-12px;border:1px solid #50c9faad;transform:rotateX(68deg) rotateZ(-18deg)}.orb:after{inset:-23px;border:1px solid #c6a56e9a;transform:rotateY(68deg) rotateZ(25deg)}
+.letter{font-size:95px;font-weight:200;text-shadow:0 0 24px #a8eaff,0 0 60px #61d9ff}
+.hud-cross{position:absolute;width:8px;height:8px;border:1px solid #71e1ff;transform:rotate(45deg);box-shadow:0 0 9px #71e1ff}.hud-cross.one{top:12%;left:10%}.hud-cross.two{bottom:12%;right:10%}
+.hud-label{position:absolute;font:10px ui-monospace,SFMono-Regular,monospace;letter-spacing:2px;color:#8ca8b5}.hud-label.left{top:30%;left:4%}.hud-label.right{bottom:28%;right:4%}
+.orb-title{margin:12px 0 8px;letter-spacing:9px;font-size:22px;font-weight:300;text-shadow:0 0 15px #55d9ff55}.core-status{font:10px ui-monospace,monospace;letter-spacing:2px;color:#d7b477;margin-top:16px;border:1px solid #d7b47755;padding:9px 18px;background:#16130b88}
+.telemetry{display:flex;gap:14px;margin-top:18px;font:9px ui-monospace,monospace;color:#7193a1;letter-spacing:1px}.telemetry b{color:#71dfff;font-weight:500}
+.label{font-family:ui-monospace,monospace;letter-spacing:2px}.metric{font-weight:300;font-size:35px;text-shadow:0 0 18px #55d9ff40}
+@keyframes spin{to{transform:rotate(360deg)}}@keyframes orbfloat{50%{transform:translateY(-6px);box-shadow:0 0 38px #38baffba,0 0 90px #1b84d870,inset 0 0 50px #65dfff80}}@keyframes scan{to{background-position:0 110px}}
+@media(prefers-reduced-motion:reduce){.orb,.nexus-stage:before,.nexus-stage:after,.orb-panel:after{animation:none!important}}
+@media(max-width:550px){.orb-panel{min-height:440px}.nexus-stage{width:270px;height:270px}.orb{width:190px;height:190px}.hud-label{display:none}.telemetry{gap:8px;font-size:8px}.top h1{letter-spacing:1px}}
+
+/* ATLAS 2.2 REACTOR: layered orbital engine, deliberately dark center */
+.orb-panel{background:radial-gradient(ellipse at 50% 43%,#10212a 0%,#080c10 34%,#030405 75%)}
+.nexus-stage{width:350px;height:350px;perspective:750px;transform-style:preserve-3d;filter:drop-shadow(0 0 16px #15b7f733)}
+.nexus-stage:before{inset:7px;border:1px solid #5cd9f83d;border-left-color:transparent;border-right-color:transparent;animation:reactor-spin 55s linear infinite}
+.nexus-stage:after{inset:30px;border:1px dashed #bda47b55;border-top-color:transparent;border-bottom-color:transparent;animation:reactor-spin 43s linear infinite reverse}
+.reactor-halo{position:absolute;inset:36px;border-radius:50%;background:radial-gradient(circle,transparent 38%,#09c6ff12 49%,#00aeff05 62%,transparent 74%);box-shadow:0 0 75px #009de829,inset 0 0 38px #10bdf51a;animation:reactor-breathe 7s ease-in-out infinite}
+.reactor-ring{position:absolute;border-radius:50%;transform-style:preserve-3d;pointer-events:none}
+.reactor-ring.outer{inset:38px;border:2px solid #4ccffb8c;border-left-color:#4ccffb12;border-bottom-color:#4ccffb22;box-shadow:0 0 16px #25c9ff55,inset 0 0 13px #25c9ff1c;animation:reactor-orbit-one 17s linear infinite}
+.reactor-ring.middle{inset:56px;border:3px solid #bca0758c;border-right-color:transparent;border-bottom-color:#bca07519;box-shadow:0 0 13px #c5a16d25;animation:reactor-orbit-two 24s linear infinite reverse}
+.reactor-ring.inner{inset:76px;border:2px solid #56e4ff9c;border-top-color:transparent;border-left-color:#56e4ff15;box-shadow:0 0 20px #35d7ff38;animation:reactor-orbit-three 12s linear infinite}
+.reactor-equator{position:absolute;width:290px;height:95px;border:2px solid #53d8fa99;border-top-color:#7de6ffcc;border-bottom-color:#53d8fa35;border-radius:50%;transform:rotate(-27deg);box-shadow:0 0 19px #16c9ff40;animation:reactor-equator 11s ease-in-out infinite alternate}
+.reactor-core{position:relative;z-index:2;width:145px;height:145px;display:grid;place-items:center;border-radius:50%;background:radial-gradient(circle at 50% 45%,#0b1821 0%,#03070c 48%,#010204 72%);border:1px solid #6bdcff8c;box-shadow:0 0 8px #80e9ff88,0 0 34px #13bafa44,0 0 85px #0683bf30,inset 0 0 22px #25bfff38,inset 0 0 55px #000;animation:reactor-float 6s ease-in-out infinite}
+.reactor-core:before{content:"";position:absolute;inset:11px;border-radius:50%;border:1px solid #6cdfff44;border-left-color:transparent;border-right-color:transparent;animation:reactor-spin 9s linear infinite}
+.reactor-core:after{content:"";position:absolute;inset:22px;border-radius:50%;background:conic-gradient(from 15deg,transparent 0 20%,#45d6ff33 24%,transparent 27% 62%,#d6b57c22 66%,transparent 69%);filter:blur(3px)}
+.reactor-facets{position:absolute;inset:28px;border:1px solid #5acbe95c;clip-path:polygon(50% 0,93% 25%,93% 75%,50% 100%,7% 75%,7% 25%);background:linear-gradient(135deg,#1c455028,transparent 48%,#0c7ca020)}
+.reactor-letter{position:relative;z-index:3;font-size:69px;font-weight:200;line-height:1;color:#d9faff;text-shadow:0 0 8px #c2faff,0 0 26px #33cfff99;letter-spacing:-4px}
+.reactor-pin{position:absolute;width:5px;height:5px;border-radius:50%;background:#a6efff;box-shadow:0 0 10px #5bdcff}.reactor-pin.p1{top:15px;left:50%}.reactor-pin.p2{bottom:30px;left:13px}.reactor-pin.p3{bottom:30px;right:13px;background:#ddc08b;box-shadow:0 0 9px #ddc08b}
+.reactor-ticks{position:absolute;inset:1px;border-radius:50%;background:repeating-conic-gradient(from 0deg,#7ddfff70 0deg .45deg,transparent .45deg 9deg);mask:radial-gradient(circle,transparent 68%,black 69%,black 70%,transparent 71%);opacity:.55;animation:reactor-spin 90s linear infinite reverse}
+@keyframes reactor-spin{to{transform:rotate(360deg)}}
+@keyframes reactor-orbit-one{from{transform:rotate(-24deg) rotateX(66deg)}to{transform:rotate(336deg) rotateX(66deg)}}
+@keyframes reactor-orbit-two{from{transform:rotate(24deg) rotateY(70deg)}to{transform:rotate(384deg) rotateY(70deg)}}
+@keyframes reactor-orbit-three{from{transform:rotate(55deg) rotateX(70deg)}to{transform:rotate(415deg) rotateX(70deg)}}
+@keyframes reactor-equator{to{transform:rotate(-12deg) scaleX(.91)}}
+@keyframes reactor-float{50%{transform:translateY(-5px);box-shadow:0 0 12px #80e9ffaa,0 0 47px #13bafa66,0 0 95px #0683bf3b,inset 0 0 25px #25bfff4a,inset 0 0 55px #000}}
+@keyframes reactor-breathe{50%{opacity:.55;transform:scale(1.04)}}
+@media(max-width:550px){.nexus-stage{width:290px;height:290px;transform:scale(.92)}.reactor-equator{width:265px}.reactor-core{width:125px;height:125px}.reactor-letter{font-size:61px}.reactor-ring.outer{inset:28px}.reactor-ring.middle{inset:47px}.reactor-ring.inner{inset:65px}}
+@media(prefers-reduced-motion:reduce){.nexus-stage *, .nexus-stage:before,.nexus-stage:after{animation:none!important}}
+
+/* ATLAS 2.3: Cinematic particle nucleus, hardware-conscious canvas */
+.orb-panel{background:radial-gradient(ellipse at 50% 42%,#0b1b24 0%,#05090d 42%,#020304 78%)}
+.atlas-stage{width:min(410px,90vw);height:350px;max-width:100%;display:grid;place-items:center;position:relative;transform:none!important;perspective:none;isolation:isolate}
+.atlas-stage:before,.atlas-stage:after{display:none!important}
+.nucleus-hit{position:absolute;inset:0;width:100%;height:100%;border:0;background:none;padding:0;cursor:pointer;display:grid;place-items:center;touch-action:manipulation}
+#atlasCanvas{width:100%;height:100%;display:block;position:absolute;inset:0;filter:drop-shadow(0 0 10px #0aa5d62c)}
+.nucleus-caption{position:relative;z-index:2;font-weight:200;font-size:70px;letter-spacing:-6px;line-height:1;color:#dff9ff;text-shadow:0 0 7px #d4faff,0 0 23px #46cfff99,0 0 50px #1b8bc055;transform:translate(-4px,-2px);pointer-events:none}
+.nucleus-dot{font-size:17px;color:#d8b67a;vertical-align:top;position:absolute;top:10px;right:-15px;text-shadow:0 0 8px #e8bf75}
+.stage-coordinate{position:absolute;z-index:3;font:9px ui-monospace,SFMono-Regular,monospace;letter-spacing:1.7px;color:#7794a1;pointer-events:none}.stage-coordinate.top-left{left:7px;top:20px}.stage-coordinate.bottom-right{right:6px;bottom:15px;color:#b69c73}
+.nucleus-hit:focus-visible{outline:1px solid #65dfff;outline-offset:-6px}
+.orb-title{margin-top:0!important}
+@media(max-width:550px){.atlas-stage{height:300px;width:min(330px,88vw)}.nucleus-caption{font-size:62px}.stage-coordinate{font-size:8px}}
+@media(prefers-reduced-motion:reduce){#atlasCanvas{filter:none}}
+
+/* ATLAS 2.4: floating typographic core, restrained cinematic motion */
+.nucleus-caption{display:block;transform:translate(-4px,-2px);perspective:650px;transform-style:preserve-3d;filter:drop-shadow(0 0 10px rgba(55,190,235,.32))}
+.floating-a{display:inline-block;transform-origin:50% 55%;transform-style:preserve-3d;animation:atlas-letter-float 6.4s cubic-bezier(.45,0,.55,1) infinite;will-change:transform;text-shadow:0 1px 0 #fff,0 0 9px #b9f3ff,0 0 24px #31bafa88,2px 6px 10px #000}
+.nucleus-hit.is-pulsing .floating-a{animation:atlas-letter-activate .9s ease-out 1,atlas-letter-float 6.4s ease-in-out .9s infinite}
+.nucleus-hit.is-pulsing #atlasCanvas{filter:drop-shadow(0 0 18px #24caff88)}
+@keyframes atlas-letter-float{0%,100%{transform:translate3d(0,3px,0) rotateY(-9deg) rotateX(4deg) scale(.98)}50%{transform:translate3d(0,-9px,18px) rotateY(10deg) rotateX(-6deg) scale(1.045)}}
+@keyframes atlas-letter-activate{0%{transform:scale(1);filter:brightness(1)}35%{transform:translateY(-9px) scale(1.14) rotateY(14deg);filter:brightness(1.65)}100%{transform:scale(1);filter:brightness(1)}}
+@media(prefers-reduced-motion:reduce){.floating-a,.nucleus-hit.is-pulsing .floating-a{animation:none!important;will-change:auto}}
+
+/* ATLAS 2.5: custom architectural insignia, no font glyph or exaggerated tilt */
+.nucleus-caption{transform:translate(0,-2px);filter:none;perspective:none;display:grid;place-items:center;width:130px;height:155px}
+.atlas-monogram{display:block;width:118px;height:138px;animation:atlas-insignia-hover 8s ease-in-out infinite;filter:drop-shadow(0 0 8px #2cbfffa0) drop-shadow(0 0 22px #128acb40);transform-origin:50% 50%}
+.atlas-monogram svg{display:block;width:100%;height:100%;overflow:visible}
+.nucleus-hit.is-pulsing .atlas-monogram{animation:atlas-insignia-activate .9s ease-out 1,atlas-insignia-hover 8s ease-in-out .9s infinite}
+@keyframes atlas-insignia-hover{0%,100%{transform:translateY(2px) scale(.985);opacity:.94}50%{transform:translateY(-5px) scale(1.015);opacity:1}}
+@keyframes atlas-insignia-activate{0%{transform:scale(1);filter:brightness(1)}45%{transform:scale(1.09);filter:brightness(1.55)}100%{transform:scale(1);filter:brightness(1)}}
+@media(prefers-reduced-motion:reduce){.atlas-monogram,.nucleus-hit.is-pulsing .atlas-monogram{animation:none!important}}
+
+/* Approved holographic sphere: only the nucleus visual is replaced. All other panels and tools remain. */
+#atlasCanvas,.nucleus-caption{display:none!important}
+.approved-sphere{display:block;position:absolute;left:50%;top:49%;width:110%;height:auto;max-height:100%;object-fit:contain;transform:translate(-50%,-50%);filter:drop-shadow(0 0 14px rgba(0,164,255,.27));pointer-events:none;animation:approved-breathe 7s ease-in-out infinite}
+.nucleus-hit.is-pulsing .approved-sphere{filter:drop-shadow(0 0 28px rgba(31,190,255,.7)) brightness(1.2)}
+@keyframes approved-breathe{50%{transform:translate(-50%,-51.2%) scale(1.015)}}
+@media(prefers-reduced-motion:reduce){.approved-sphere{animation:none}}
+
+/* ATLAS 3.6: only nucleus visual; preserve all other platform styles */
+#atlasGlobe36.approved-sphere{width:110%;height:auto;aspect-ratio:740/470;max-height:100%;object-fit:contain;animation:none!important;filter:drop-shadow(0 0 14px rgba(0,164,255,.27))}
+.nucleus-hit.is-pulsing #atlasGlobe36{filter:drop-shadow(0 0 28px rgba(31,190,255,.7)) brightness(1.2)}
+</style></head><body><div class="app"><aside class="sidebar"><div><div class="logo">AF <span>|</span> ATLAS</div><div class="sub">ARCHITECTURAL FINESSE</div></div><button class="nav active" data-view="core">◉ CORE</button><button class="nav" data-view="command">▦ COMMAND</button><button class="nav" data-view="field">⌖ FIELD</button><div class="foot">NEXUS · ESFERA INTEGRADA</div></aside><main class="main"><header class="top"><div><div class="kicker">ARCHITECTURAL FINESSE · CONTROL CENTER</div><h1 id="pageTitle">ATLAS CORE</h1></div><div class="pill">● INTERFAZ ACTIVA</div></header>
+<section class="view active" id="core"><div class="core"><div class="panel orb-panel"><span class="hud-cross one" aria-hidden="true"></span><span class="hud-cross two" aria-hidden="true"></span><span class="hud-label left">SYS / 01</span><span class="hud-label right">AF · REACTOR</span><div class="nexus-stage atlas-stage"><button id="atlasNucleus" class="nucleus-hit" type="button" aria-label="Activar pulso visual del núcleo ATLAS"><canvas id="atlasCanvas" aria-hidden="true"></canvas><canvas id="atlasGlobe36" class="approved-sphere" width="740" height="470" aria-label="Globo holográfico rotando 360 grados con anillos orbitales y A fija"></canvas><span class="nucleus-caption"><span class="atlas-monogram" aria-hidden="true"><svg viewBox="0 0 160 180" role="img" aria-label="Emblema ATLAS" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="atlasMetal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4feff"/><stop offset=".26" stop-color="#9deaff"/><stop offset=".55" stop-color="#2c95c7"/><stop offset=".8" stop-color="#d4f6ff"/><stop offset="1" stop-color="#417a9c"/></linearGradient><linearGradient id="atlasGold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f3dbab"/><stop offset="1" stop-color="#927042"/></linearGradient></defs><path d="M80 12 L148 154 L118 154 L80 68 L42 154 L12 154 Z" fill="url(#atlasMetal)" stroke="#b9f5ff" stroke-width="1.5" stroke-linejoin="bevel"/><path d="M57 120 L103 120 L115 145 L45 145 Z" fill="#031018"/><path d="M58 121 L102 121" fill="none" stroke="url(#atlasGold)" stroke-width="5" stroke-linecap="square"/><path d="M80 25 L128 136" stroke="#d9faff" stroke-opacity=".45" stroke-width="2" fill="none"/><path d="M32 155 H52 M108 155 H128" stroke="#d7b781" stroke-width="2"/></svg></span></span></button><div class="stage-coordinate top-left">AF / INTELLIGENCE CORE</div><div class="stage-coordinate bottom-right">SYS 01 / NEXUS</div></div></div><div class="orb-title">ATLAS</div><div class="muted small">Tu centro de mando digital</div><div class="core-status" id="coreStatus" role="status" aria-live="polite">◈ INTERFAZ OPERATIVA · TOCA EL NÚCLEO</div><div class="telemetry"><span>CORE <b>01</b></span><span>COMMAND <b>02</b></span><span>FIELD <b>03</b></span></div></div><div class="stack"><div class="panel"><h2>ACCESO RÁPIDO</h2><div class="links"><a class="btn gold" href="https://chatgpt.com/" target="_blank" rel="noopener">Conversar con ATLAS</a><a class="btn" href="https://app.notion.com/p/3dee766aac708140888cc5ebc8ade8b9" target="_blank" rel="noopener">Abrir AF HQ</a><button class="btn" data-view="command">COMMAND</button><button class="btn" data-view="field">FIELD</button></div></div><div class="panel"><h2>ESTADO DEL SISTEMA</h2><p class="notice">Interfaz y herramientas locales disponibles. Los datos de clientes, proyectos y finanzas todavía no están sincronizados con Notion.</p><span class="badge">INTEGRACIÓN PENDIENTE</span></div></div></div><div class="cards"><div class="panel"><div class="label">CORE</div><div class="metric">01</div><div class="small muted">Inicio y acceso a voz</div></div><div class="panel"><div class="label">COMMAND</div><div class="metric">02</div><div class="small muted">Operaciones y enlaces</div></div><div class="panel"><div class="label">FIELD</div><div class="metric">03</div><div class="small muted">Cálculos en campo</div></div></div></section>
+<section class="view" id="command"><div class="section grid2"><div class="panel"><h2>OPERACIONES AF</h2><div class="action-list"><a class="btn" target="_blank" rel="noopener" href="https://app.notion.com/p/bb9c7b70555149bea44bffc1a165d0d5">Clientes ↗</a><a class="btn" target="_blank" rel="noopener" href="https://app.notion.com/p/4a773d41425c4f639063b83f6ad71464">Proyectos ↗</a><a class="btn" target="_blank" rel="noopener" href="https://app.notion.com/p/405e766aac70816587b4de7f27d15e10">Instagram ↗</a><a class="btn" target="_blank" rel="noopener" href="https://app.notion.com/p/3dee766aac708140888cc5ebc8ade8b9">AF HQ ↗</a></div></div><div class="panel"><h2>FINANZAS Y CONTROL</h2><p class="notice">Los totales reales no se muestran todavía porque esta versión no tiene una conexión autenticada con Notion. No se generan cifras de ingresos, depósitos ni balances ficticios.</p><span class="badge">SIN SINCRONIZACIÓN</span><div style="height:15px"></div><button class="btn gold" data-view="field">Crear cálculo preliminar</button></div></div><div class="section panel"><h2>PRÓXIMAS INTEGRACIONES</h2><p class="notice">Cotizaciones guardadas, inventario, recibos, proveedores, calendario y reportes. Cada módulo se habilitará después de verificar sus datos y permisos.</p></div></section>
+<section class="view" id="field"><div class="section grid2"><div class="panel"><h2>CALCULADORA DE ÁREA Y ESTIMADO</h2><div class="field"><label for="width">Ancho de la superficie (pies)</label><input id="width" type="number" min="0" step="any" inputmode="decimal" placeholder="Ej. 12"></div><div class="field"><label for="height">Alto de la superficie (pies)</label><input id="height" type="number" min="0" step="any" inputmode="decimal" placeholder="Ej. 9"></div><div class="field"><label for="rate">Tarifa estimada ($ por pie²)</label><input id="rate" type="number" min="0" step="any" inputmode="decimal" value="10"></div><button class="btn gold" id="calculate">Calcular estimado</button><button class="btn" id="clear" style="margin-left:7px">Limpiar</button><div class="section"><div class="label">ÁREA</div><div class="result" id="area">—</div><div class="label">ESTIMADO BASE</div><div class="result" id="estimate">—</div></div><p class="notice">Cálculo preliminar por superficie. No incluye automáticamente preparación, materiales adicionales, andamios, transportación, impuestos ni margen detallado. No guarda ni envía información.</p></div><div class="stack"><div class="panel"><h2>HERRAMIENTAS DE CAMPO</h2><p class="notice">Introduce las medidas en pies. Para pulgadas, divide entre 12. Ejemplo: 102 pulgadas = 8.5 pies.</p><button class="btn" id="copy" disabled>Copiar cálculo</button><p class="statusline" id="feedback" aria-live="polite">Esperando medidas.</p></div><div class="panel"><h2>PROYECTOS</h2><p class="notice">Accede a la base de proyectos existente para consultar información autorizada.</p><a class="btn" href="https://app.notion.com/p/4a773d41425c4f639063b83f6ad71464" target="_blank" rel="noopener">Abrir proyectos en Notion</a></div></div></div></section>
+</main></div><script>
+(function(){const titles={core:'ATLAS CORE',command:'ATLAS COMMAND',field:'ATLAS FIELD'};function show(name){if(!titles[name])return;document.querySelectorAll('.view').forEach(e=>e.classList.toggle('active',e.id===name));document.querySelectorAll('.nav').forEach(e=>e.classList.toggle('active',e.dataset.view===name));document.getElementById('pageTitle').textContent=titles[name];try{localStorage.setItem('af-atlas-mode',name)}catch(e){}window.scrollTo(0,0)}document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>show(b.dataset.view)));try{show(localStorage.getItem('af-atlas-mode')||'core')}catch(e){show('core')}
+const w=document.getElementById('width'),h=document.getElementById('height'),r=document.getElementById('rate'),area=document.getElementById('area'),estimate=document.getElementById('estimate'),copy=document.getElementById('copy'),feedback=document.getElementById('feedback');let summary='';const money=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD'}).format(n);document.getElementById('calculate').addEventListener('click',()=>{const a=Number(w.value),b=Number(h.value),rate=Number(r.value);if(!w.value||!h.value||!r.value||!Number.isFinite(a*b*rate)||a<=0||b<=0||rate<=0){feedback.textContent='Introduce medidas y tarifa válidas mayores que cero.';return}const sqft=a*b,total=sqft*rate;area.textContent=sqft.toLocaleString('en-US',{maximumFractionDigits:2})+' pie²';estimate.textContent=money(total);summary=`AF | ATLAS · Cálculo preliminar\nAncho: ${a} pies\nAlto: ${b} pies\nÁrea: ${sqft.toFixed(2)} pie²\nTarifa: ${money(rate)}/pie²\nEstimado base: ${money(total)}\nNo incluye cargos adicionales.`;copy.disabled=false;feedback.textContent='Cálculo listo. Puedes copiarlo.'});document.getElementById('clear').addEventListener('click',()=>{w.value='';h.value='';r.value='10';area.textContent='—';estimate.textContent='—';summary='';copy.disabled=true;feedback.textContent='Esperando medidas.'});copy.addEventListener('click',async()=>{if(!summary)return;try{await navigator.clipboard.writeText(summary);feedback.textContent='Cálculo copiado.'}catch(e){feedback.textContent='No se pudo copiar automáticamente. Usa Safari para copiar el resultado.'}})})();
+
+/* Standalone local visual simulation. No microphone, AI or live service is connected. */
+(function(){
+const canvas=document.getElementById('atlasCanvas'),button=document.getElementById('atlasNucleus');if(!canvas||!button)return;
+const ctx=canvas.getContext('2d',{alpha:true});if(!ctx)return;
+let W=410,H=350,dpr=1,phase=0,pulse=0,frame=0,prev=0;
+const reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const pts=Array.from({length:310},(_,i)=>{const y=1-2*(i+.5)/310,theta=i*2.399963229728653;const r=Math.sqrt(1-y*y);return {x:r*Math.cos(theta),y:y,z:r*Math.sin(theta),j:i};});
+const stars=Array.from({length:54},(_,i)=>({x:(Math.sin(i*83.29)*1837.9)%1,y:(Math.cos(i*23.91)*922.1)%1,a:.12+(i%7)*.055}));
+function resize(){const rect=canvas.getBoundingClientRect();W=Math.max(250,rect.width);H=Math.max(240,rect.height);dpr=Math.min(window.devicePixelRatio||1,2);canvas.width=Math.round(W*dpr);canvas.height=Math.round(H*dpr);ctx.setTransform(dpr,0,0,dpr,0,0)}
+const ro=new ResizeObserver(resize);ro.observe(canvas);resize();
+function ring(rx,ry,rot,tilt,color,opacity,width,dash=false){ctx.save();ctx.translate(W/2,H/2);ctx.rotate(rot);ctx.scale(1,tilt);ctx.beginPath();ctx.ellipse(0,0,rx,ry,0,0,Math.PI*2);ctx.strokeStyle=color;ctx.globalAlpha=opacity;ctx.lineWidth=width/Math.max(.25,tilt);if(dash)ctx.setLineDash([2,9]);ctx.shadowColor=color;ctx.shadowBlur=9;ctx.stroke();ctx.restore()}
+function draw(t){ctx.clearRect(0,0,W,H);const cx=W/2,cy=H/2,scale=Math.min(W/410,H/350),rad=105*scale;ctx.save();
+const bg=ctx.createRadialGradient(cx,cy,10,cx,cy,170*scale);bg.addColorStop(0,'rgba(7,55,76,.24)');bg.addColorStop(.5,'rgba(8,52,75,.12)');bg.addColorStop(1,'rgba(0,0,0,0)');ctx.fillStyle=bg;ctx.fillRect(0,0,W,H);
+for(const s of stars){const x=((s.x+1)%1)*W,y=((s.y+1)%1)*H;ctx.fillStyle=`rgba(101,204,235,${s.a})`;ctx.fillRect(x,y,1,1)}
+ring(146*scale,146*scale,t*.035,.91,'#5cc9ed',.13,1,true);ring(132*scale,132*scale,-t*.045,.96,'#bda376',.23,1,true);
+ring(128*scale,128*scale,-.35+t*.11,.34,'#62dfff',.38,1.2);ring(137*scale,137*scale,.8-t*.085,.25,'#a5dceb',.23,.9);
+ring(118*scale,118*scale,1.8+t*.07,.53,'#d9b57b',.25,.8);
+ctx.beginPath();ctx.arc(cx,cy,rad*.79,0,Math.PI*2);const core=ctx.createRadialGradient(cx-18*scale,cy-21*scale,2,cx,cy,rad);core.addColorStop(0,'rgba(11,39,51,.93)');core.addColorStop(.47,'rgba(3,13,20,.97)');core.addColorStop(.83,'rgba(1,5,9,.98)');core.addColorStop(1,'rgba(30,144,184,.22)');ctx.fillStyle=core;ctx.fill();ctx.strokeStyle='rgba(104,219,255,.38)';ctx.lineWidth=1;ctx.shadowColor='#39c9ff';ctx.shadowBlur=15+18*pulse;ctx.stroke();ctx.shadowBlur=0;
+const cos=Math.cos(t*.19),sin=Math.sin(t*.19),c2=Math.cos(.28),s2=Math.sin(.28);let projected=[];
+for(const p of pts){let x=p.x*cos+p.z*sin,z=-p.x*sin+p.z*cos,y=p.y*c2-z*s2;z=p.y*s2+z*c2;const perspective=2.8/(2.8-z*.35),px=cx+x*rad*.88*perspective,py=cy+y*rad*.88*perspective;projected.push({px,py,z,j:p.j});}
+projected.sort((a,b)=>a.z-b.z);
+for(const p of projected){const bright=(p.z+1)/2,alpha=.11+bright*.55;ctx.beginPath();ctx.arc(p.px,p.py,(.45+bright*.85)*scale,0,Math.PI*2);ctx.fillStyle=`rgba(${Math.round(62+bright*85)},${Math.round(174+bright*61)},255,${alpha})`;ctx.fill()}
+for(let k=0;k<4;k++){const angle=t*(.12+k*.025)+k*1.57;ctx.beginPath();ctx.arc(cx,cy,rad*(.88+k*.075),angle,angle+.34);ctx.strokeStyle=k===2?'rgba(220,181,116,.68)':'rgba(80,222,255,.6)';ctx.lineWidth=(1.2+k*.16)*scale;ctx.shadowColor='#31bfff';ctx.shadowBlur=12;ctx.stroke()}ctx.shadowBlur=0;
+if(pulse>.005){ctx.beginPath();ctx.arc(cx,cy,(105+95*(1-pulse))*scale,0,Math.PI*2);ctx.strokeStyle=`rgba(110,226,255,${pulse*.48})`;ctx.lineWidth=1.5;ctx.stroke()}
+ctx.restore();pulse*=.94;
+}
+function loop(now){if(!document.hidden&&now-prev>30){prev=now;if(!reduce)phase+=.032;draw(phase);frame++}requestAnimationFrame(loop)}
+const status=document.getElementById('coreStatus');let resetTimer;
+button.addEventListener('click',()=>{pulse=1;button.classList.remove('is-pulsing');void button.offsetWidth;button.classList.add('is-pulsing');if(status)status.textContent='◈ PULSO VISUAL ACTIVADO · SIN MICRÓFONO';button.setAttribute('aria-label','Pulso visual activado. ATLAS no está escuchando.');clearTimeout(resetTimer);resetTimer=setTimeout(()=>{button.classList.remove('is-pulsing');if(status)status.textContent='◈ INTERFAZ OPERATIVA · TOCA EL NÚCLEO';button.setAttribute('aria-label','Activar pulso visual del núcleo ATLAS')},1800)});
+draw(0);
+})();
+</script><script>
+/* ATLAS 3.6 - globe rotates in 3D; rings orbit; constellation A stays facing front */
+(function(){
+ const canvas=document.getElementById('atlasGlobe36');if(!canvas)return;
+ const ctx=canvas.getContext('2d');if(!ctx)return;
+ const W=740,H=470,cx=373,cy=223,R=216;
+ const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');
+ const pts=[];
+ // Deterministic continents as dot clouds, distributed on the surface of a true projected sphere.
+ const lands=[
+ [[-168,71],[-130,72],[-115,60],[-97,54],[-82,50],[-64,47],[-80,27],[-98,16],[-108,27],[-117,33],[-126,49]],
+ [[-82,13],[-68,10],[-50,-2],[-35,-10],[-48,-34],[-70,-56],[-78,-33]],
+ [[-12,36],[-17,55],[4,72],[30,70],[44,57],[65,55],[92,60],[132,52],[155,59],[172,44],[141,35],[126,20],[108,8],[95,18],[72,9],[58,25],[39,30],[31,43],[12,38]],
+ [[-17,35],[10,37],[33,30],[51,12],[42,-12],[32,-34],[17,-35],[9,-20],[-5,-1]],
+ [[112,-11],[155,-11],[154,-37],[134,-43],[113,-26]],
+ [[-52,60],[-42,82],[-19,82],[-39,59]],
+ [[46,-13],[50,-13],[50,-26],[44,-24]]
+ ];
+ function inside(x,y,p){let hit=false;for(let i=0,j=p.length-1;i<p.length;j=i++){const a=p[i],b=p[j];if(((a[1]>y)!==(b[1]>y))&&(x<(b[0]-a[0])*(y-a[1])/(b[1]-a[1])+a[0]))hit=!hit;}return hit}
+ let seed=987654321;function rnd(){seed=(1664525*seed+1013904223)>>>0;return seed/4294967296}
+ for(let lat=-83;lat<=83;lat+=2.7){for(let lon=-180;lon<180;lon+=3.1){let lo=lon+(rnd()-.5)*1.8,la=lat+(rnd()-.5)*1.5;const land=lands.some(p=>inside(lo,la,p));if(land||rnd()<.15)pts.push({lat:la*Math.PI/180,lon:lo*Math.PI/180,land,size:land?.75+rnd()*.5:.35+rnd()*.3});}}
+ const stars=Array.from({length:75},()=>({x:rnd()*740,y:rnd()*450,r:rnd()*1.4+.3,a:rnd()*.6+.1}));
+ const Apts=[[237,355],[316,215],[373,91],[433,213],[510,355],[373,166],[316,215],[433,213],[373,260],[237,355],[510,355],[373,91],[373,166],[373,260]];
+ const edges=[[0,1],[1,2],[2,3],[3,4],[0,9],[4,10],[0,8],[8,4],[5,6],[5,7],[6,8],[7,8],[1,8],[3,8],[9,2],[2,10],[6,9],[7,10]];
+ function line(points,color,width,blur=0){ctx.beginPath();points.forEach((p,i)=>i?ctx.lineTo(p[0],p[1]):ctx.moveTo(p[0],p[1]));ctx.strokeStyle=color;ctx.lineWidth=width;ctx.shadowColor=color;ctx.shadowBlur=blur;ctx.stroke();ctx.shadowBlur=0}
+ function point(x,y,r,color,glow=0){ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fillStyle=color;ctx.shadowColor=color;ctx.shadowBlur=glow;ctx.fill();ctx.shadowBlur=0}
+ function project(lat,lon,turn){const d=lon+turn;const z=Math.cos(lat)*Math.cos(d);return {x:cx+R*Math.cos(lat)*Math.sin(d),y:cy-R*Math.sin(lat),z}}
+ function orbit(t,tilt,angle,rx,ry){const co=Math.cos(angle),si=Math.sin(angle),ct=Math.cos(tilt),st=Math.sin(tilt);let a=[];for(let i=0;i<=220;i++){let p=i/220*Math.PI*2+t;let x=rx*Math.cos(p),y=ry*Math.sin(p)*ct,z=ry*Math.sin(p)*st;a.push({x:cx+x*co-z*si,y:cy+y,z:x*si+z*co})}return a}
+ function drawOrbit(t,tilt,angle,rx,ry,col,which){let ps=orbit(t,tilt,angle,rx,ry);for(let pass=which;pass<=which;pass++){for(let i=1;i<ps.length;i++){let p=ps[i-1],q=ps[i];if((p.z>0)!==(pass===1))continue;line([[p.x,p.y],[q.x,q.y]],col,pass?2.3:1.15,pass?5:0)}}}
+ function draw(time){ctx.clearRect(0,0,W,H);const t=time/1000;let rot=reduced.matches?0:t*Math.PI*2/18;
+ // Soft atmospheric glow behind the single globe, not a second sphere.
+ let halo=ctx.createRadialGradient(cx,cy,125,cx,cy,265);halo.addColorStop(0,'#0073b208');halo.addColorStop(.75,'#0079d01b');halo.addColorStop(1,'#0079d000');ctx.fillStyle=halo;ctx.fillRect(75,0,600,455);
+ for(const s of stars)point(s.x,s.y,s.r,`rgba(86,201,255,${s.a})`);
+ // Rear halves of the rings first, with independent full 360 degree rotations.
+ drawOrbit(reduced.matches?0:t*.29,.57,-.4,306,103,'#3bbdff5c',0);drawOrbit(reduced.matches?0:-t*.21,.78,.58,324,114,'#e9b66e6c',0);
+ const sphere=ctx.createRadialGradient(cx-72,cy-95,12,cx,cy,R);sphere.addColorStop(0,'#08345a');sphere.addColorStop(.54,'#04182d');sphere.addColorStop(.88,'#020b1c');sphere.addColorStop(1,'#00101d');ctx.beginPath();ctx.arc(cx,cy,R,0,Math.PI*2);ctx.fillStyle=sphere;ctx.fill();
+ ctx.save();ctx.beginPath();ctx.arc(cx,cy,R-1,0,Math.PI*2);ctx.clip();
+ for(let lat=-75;lat<=75;lat+=15){let p=[];for(let lon=-Math.PI;lon<=Math.PI;lon+=.035){const q=project(lat*Math.PI/180,lon,rot);if(q.z>0)p.push([q.x,q.y]);else if(p.length>1){line(p,'#126e9a22',.6);p=[]}}if(p.length>1)line(p,'#126e9a22',.6)}
+ for(const p of pts){const q=project(p.lat,p.lon,rot);if(q.z<=0)continue;const alpha=(p.land?.26:.08)+Math.pow(q.z,1.5)*(p.land?.75:.16);point(q.x,q.y,p.size*(.4+.6*q.z),`rgba(${p.land?'67,210,255':'37,125,181'},${alpha})`,p.land&&q.z>.8?1.2:0)}
+ ctx.restore();
+ ctx.beginPath();ctx.arc(cx,cy,R,0,Math.PI*2);ctx.strokeStyle='#51dfff';ctx.lineWidth=2.6;ctx.shadowColor='#19caff';ctx.shadowBlur=15;ctx.stroke();ctx.shadowBlur=0;
+ // Foreground ring arcs. Each orbit travels through a complete 360-degree path.
+ drawOrbit(reduced.matches?0:t*.29,.57,-.4,306,103,'#3fcfffaa',1);drawOrbit(reduced.matches?0:-t*.21,.78,.58,324,114,'#e9b66eb9',1);
+ // Constellation A is always fixed to the viewer.
+ for(const [i,j] of edges){const p=Apts[i],q=Apts[j];line([p,q],'#007fe5',4,13);line([p,q],'#7ceeff',1.5,6)}
+ for(let i=0;i<11;i++){let [x,y]=Apts[i];point(x,y,i===2?6:4,'#bffaff',16);point(x,y,1.8,'#fff',5)}
+ for(const s of stars.slice(0,20)){let x=220+s.x/740*300,y=85+s.y/450*280;if((x-cx)**2+(y-cy)**2<R*R)point(x,y,.5,'#60dcff7a')}
+ // Original-style illuminated pedestal.
+ for(let j=0;j<4;j++){ctx.beginPath();ctx.ellipse(cx,433,225+j*34,12+j*4,0,0,Math.PI*2);ctx.strokeStyle=j%2?'#d7a958a6':'#18bfff9c';ctx.lineWidth=3;ctx.shadowColor=j%2?'#d7a958':'#18bfff';ctx.shadowBlur=10;ctx.stroke();ctx.shadowBlur=0}
+ point(cx,432,5,'#c5ffff',24);
+ if(!reduced.matches&&document.visibilityState==='visible')requestAnimationFrame(draw);
+ }
+ requestAnimationFrame(draw);
+ document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')requestAnimationFrame(draw)});
+ reduced.addEventListener?.('change',()=>requestAnimationFrame(draw));
+})();
+</script></body></html>
